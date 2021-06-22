@@ -7,5 +7,5 @@ LABEL description="Docker image to be used in singularity"
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y build-essential libglpk40
+    apt-get install -y build-essential libglpk40 libzmq3-dev
 
